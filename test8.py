@@ -27,7 +27,7 @@ dokumenty = [
 embeddingi_dokumentow = [get_embedding(doc) for doc in dokumenty]
 
 # Zapytanie użytkownika
-zapytanie = "marki niemieckich samochodów?"
+zapytanie = "jak pojadę w góry to co zyskam?"
 embedding_zapytania = get_embedding(zapytanie)
 
 # Obliczanie podobieństwa zapytania do każdego dokumentu
